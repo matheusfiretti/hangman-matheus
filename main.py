@@ -308,7 +308,7 @@ while jogando:
         jogando = False
         continue
     if vidas == 0:
-        print('You Lose...')
+        print(f'You Lose... The word was "{chosen_word}"')
         jogando = False
         continue
 
